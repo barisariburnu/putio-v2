@@ -29,7 +29,7 @@ Putio.files.uploadFromURL({url: 'MagnetURL', parent_id: '123456789'}, function(e
 Putio.files.createFolder({name: 'Putio', parent_id: '123456789'}, function(err, body){
 	if(err){ return console.log(err); }
 
-	console.log(body);
+	console.log(body.file);
 });
 
 
