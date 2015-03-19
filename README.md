@@ -45,7 +45,7 @@ Putio.files.zipDownload({file_ids: '0'}, callback);
 Putio.files.share({file_ids: '0', friends: 'barisariburnu'}, callback);
 Putio.files.shared(null, callback);
 Putio.files.shared_with({id: '0'}, callback);
-utio.files.unshare({id: '0', shares: '1'}, callback);
+Putio.files.unshare({id: '0', shares: '1'}, callback);
 Putio.files.subtitles({id: '0'}, callback);
 Putio.files.downloadSubtitle({id: '0', key: 'key', format: 'webvtt'}, callback);
 Putio.files.events(null, callback);

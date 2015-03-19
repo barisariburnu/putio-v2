@@ -17,7 +17,7 @@ Putio.friends.friendRequests(null, function(err, body){
 
 
 // Example sendRequest:
-Putio.friends.sendRequest({username: 'barisariburnu'}}, function(err, body){
+Putio.friends.sendRequest({username: 'barisariburnu'}, function(err, body){
 	if(err){ return console.log(err); }
 
 	console.log(body);
@@ -25,7 +25,7 @@ Putio.friends.sendRequest({username: 'barisariburnu'}}, function(err, body){
 
 
 // Example approve:
-Putio.friends.approve({username: 'barisariburnu'}}, function(err, body){
+Putio.friends.approve({username: 'barisariburnu'}, function(err, body){
 	if(err){ return console.log(err); }
 
 	console.log(body);
@@ -33,7 +33,7 @@ Putio.friends.approve({username: 'barisariburnu'}}, function(err, body){
 
 
 // Example deny:
-Putio.friends.deny({username: 'barisariburnu'}}, function(err, body){
+Putio.friends.deny({username: 'barisariburnu'}, function(err, body){
 	if(err){ return console.log(err); }
 
 	console.log(body);
@@ -41,7 +41,7 @@ Putio.friends.deny({username: 'barisariburnu'}}, function(err, body){
 
 
 // Example unfriend:
-Putio.friends.unfriend({username: 'barisariburnu'}}, function(err, body){
+Putio.friends.unfriend({username: 'barisariburnu'}, function(err, body){
 	if(err){ return console.log(err); }
 
 	console.log(body);
